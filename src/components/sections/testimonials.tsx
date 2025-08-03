@@ -28,7 +28,7 @@ export default function TestimonialSection() {
             <div className="columns-1 sm:columns-2 md:columns-3 max-w-7xl mx-auto gap-4 [column-fill:balance]">
               {tweetIds.map((tweetId, i) => (
                 <div key={i} className="break-inside-avoid w-full overflow-hidden rounded-xl">
-                  <div className="p-2">
+                  <div className="pl-4 pr-2">
                     <Tweet id={tweetId} />
                   </div>
                 </div>

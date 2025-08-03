@@ -7,9 +7,9 @@ import FAQSection from "@/components/sections/faq";
 
 export default function Home() {
   return (
-    <div className="flex flex-col w-screen !overflow-x-hidden min-h-screen">
+    <div className="flex flex-col w-screen justify-center !overflow-x-hidden min-h-screen">
       <Nav />
-      <main className="flex-1 overflow-hidden">
+      <main className="flex-1 overflow-x-hidden">
         <HeroSection />
         <FeaturesSection />
         <TestimonialSection />

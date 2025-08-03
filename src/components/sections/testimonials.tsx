@@ -11,7 +11,7 @@ const tweetIds = [
 
 export default function TestimonialSection() {
   return (
-    <section id="testimonial" className="relative w-full h-full bg-gradient-to-b from-green-100 to-green-200 py-24 z-[-30] rounded-t-[48px]">
+    <section id="testimonial" className="relative max-w-full h-full bg-gradient-to-b from-green-100 to-green-200 py-24 z-[-30] rounded-t-[48px]">
       <div className="px-2">
         <div className="pb-12">
           <div className="flex w-full flex-col items-center justify-center pb-12 pt-14">
@@ -25,7 +25,7 @@ export default function TestimonialSection() {
             </p>
           </div>
           <div className="flex items-center justify-center w-full">
-            <div className="columns-1 sm:columns-2 md:columns-4 max-w-4xl md:max-w-6xl px-2">
+            <div className="columns-1 sm:columns-1 md:columns-3 max-w-4xl md:max-w-6xl px-2">
               {tweetIds.map((tweetId, i) => (
                 <div key={i} className="mb-4 break-inside-avoid">
                     <Tweet id={tweetId} />

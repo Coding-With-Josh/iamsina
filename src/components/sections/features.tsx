@@ -56,10 +56,10 @@ export default function FeaturesSection() {
         }
     ];
     return (
-        <section id="features" className="z-10 py-16 bg-white text-black h-[100rem]">
+        <section id="features" className="relative z-10 py-16 bg-white text-black">
             <div className="pt-12">
                 <div className="mt-4 z-10 flex flex-col items-center justify-center">
-                    <div className="mx-auto max-w-lg md:max-w-4xl sm:text-center">
+                    <div className="mx-auto max-w-lg md:max-w-4xl sm:text-center relative z-20">
                         <div className="mx-auto flex gap-3 justify-center items-center">
                             <h2 className="z-[9999] font-bold tracking-tight text-black text-4xl md:text-5xl lg:text-[98px]">My Work</h2>
                             <h2 className="font-bold tracking-tight text-black text-4xl md:text-5xl lg:text-[98px]">Slaps</h2>
@@ -70,9 +70,10 @@ export default function FeaturesSection() {
                     </div>
                 </div>
             </div>
+            
             {/* Feature Image Gallery - two endless rows, opposite directions */}
-            <div className="pt-12">
-                <div className="h-screen">
+            <div className="pt-12 relative z-10">
+                <div className="h-[80vh] md:h-screen">
                     <div className="relative h-full">
                         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-white via-white to-white opacity-5"></div>
                         <div className="h-full">
@@ -82,13 +83,13 @@ export default function FeaturesSection() {
                                     <div className="overflow-hidden w-full">
                                         <div className="flex animate-marquee space-x-6 pr-6 w-max">
                                             {[...images, ...images].map((img, i) => (
-                                                <div key={"row1-" + i}>
+                                                <div key={"row1-" + i} className="flex-shrink-0">
                                                     <Image
                                                         src={img.url}
                                                         alt={img.alt}
                                                         width={450}
                                                         height={300}
-                                                        className="cursor-pointer border-8 border-neutral-700 rounded-xl h-64 w-auto md:w-[450px] md:h-[300px] object-cover aspect-video"
+                                                        className="cursor-pointer border-8 border-neutral-700 rounded-xl h-48 md:h-64 lg:h-[300px] w-auto md:w-[450px] object-cover aspect-video"
                                                         loading="lazy"
                                                     />
                                                 </div>
@@ -99,13 +100,13 @@ export default function FeaturesSection() {
                                     <div className="overflow-hidden w-full">
                                         <div className="flex animate-marquee-reverse space-x-6 pr-6 w-max">
                                             {[...images, ...images].map((img, i) => (
-                                                <div key={"row2-" + i}>
+                                                <div key={"row2-" + i} className="flex-shrink-0">
                                                     <Image
                                                         src={img.url}
                                                         alt={img.alt}
                                                         width={450}
                                                         height={300}
-                                                        className="cursor-pointer border-8 border-black rounded-xl h-64 w-auto md:w-[450px] md:h-[300px] object-cover aspect-video"
+                                                        className="cursor-pointer border-8 border-black rounded-xl h-48 md:h-64 lg:h-[300px] w-auto md:w-[450px] object-cover aspect-video"
                                                         loading="lazy"
                                                     />
                                                 </div>

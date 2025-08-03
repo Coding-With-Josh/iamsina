@@ -3,7 +3,7 @@ import ThreeDPhotoCarousel from "../ui/three-d-carousel";
 
 export default function Carousel() {
   return (
-    <section id="price" className="w-full h-full md:h-[900px] bg-black rounded-t-[4rem] py-9 flex flex-col items-center justify-center">
+    <section id="carousel" className="w-full h-full md:h-[900px] bg-black rounded-t-[4rem] py-9 flex flex-col items-center justify-center">
       <div className="flex flex-col items-center justify-center scale-90">
               <h2 className="tracking-tight mt-8 font-sans text-white text-4xl sm:text-5xl lg:text-6xl font-bold">
           Check out my designs

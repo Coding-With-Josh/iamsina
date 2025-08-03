@@ -20,7 +20,7 @@ useEffect(() => {
 }, []);
 
   return (
-    <div className="relative min-h-screen">
+    <div className="relative min-h-screen" id="hero">
       <div className="absolute inset-0 -z-10 w-screen min-h-screen h-full bg-black [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#15803d_100%)]"></div>
       <div className="h-full w-full relative md:z-0 min-h-screen">
         {/* Main Heading */}

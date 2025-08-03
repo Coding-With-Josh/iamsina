@@ -1,114 +1,70 @@
 const testimonials = [
   {
-    name: "Nikhil",
-    username: "@nikhil_hrem",
-    avatar: "https://pbs.twimg.com/profile_images/1755291334964039680/nIoT5gIK_normal.jpg",
-    text: "This design really speaks to the Nigerian creative spirit!",
-    link: "https://twitter.com/nikhil_hrem/status/1742983975340327184",
-    time: "7:58 PM · Jan 4, 2024",
-    likes: 2,
-    reply: "Replying to @nolansym",
+    name: "Vlocc",
+    username: "@vloccks",
+    avatar: "https://pbs.twimg.com/profile_images/1745212766988779520/J4SmkzRb_normal.jpg",
+    text: "This design is absolutely stunning! The attention to detail is incredible.",
+    link: "https://x.com/vloccks/status/1941002014898770416",
+    time: "2:15 PM · Apr 16, 2024",
+    likes: 42,
+    reply: "",
+    replies: "Read 5 replies"
+  },
+  {
+    name: "Teni",
+    username: "@TeniEntertainer",
+    avatar: "https://pbs.twimg.com/profile_images/1891854269982167079/9piu1jf3_normal.jpg",
+    text: "I'm blown away by this creative work! The colors and composition are perfect.",
+    link: "https://x.com/TeniEntertainer/status/1891854269982167079",
+    time: "10:30 AM · Mar 28, 2024",
+    likes: 36,
+    reply: "",
+    replies: "Read 3 replies"
+  },
+  {
+    name: "Alao Visuals",
+    username: "@alaovisuals_",
+    avatar: "https://pbs.twimg.com/profile_images/1940024645085798746/ve1bk8MU_normal.jpg",
+    text: "This sets a new standard for design in our industry. Absolutely phenomenal work!",
+    link: "https://x.com/alaovisuals_/status/1940024645085798746",
+    time: "4:45 PM · Apr 14, 2024",
+    likes: 28,
+    reply: "",
+    replies: "Read 7 replies"
+  },
+  {
+    name: "Growth Panda",
+    username: "@Growthpanda_",
+    avatar: "https://pbs.twimg.com/profile_images/1940354420073775378/xjibb-tP_normal.jpg",
+    text: "The UX/UI here is next level. I can tell a lot of thought went into every interaction.",
+    link: "https://x.com/Growthpanda_/status/1940354420073775378",
+    time: "11:20 AM · Apr 15, 2024",
+    likes: 31,
+    reply: "",
+    replies: "Read 4 replies"
+  },
+  {
+    name: "Mezeshaiuje",
+    username: "@Mezeshaiuje",
+    avatar: "https://pbs.twimg.com/profile_images/1940032934854934552/knBJT1OR_normal.jpg",
+    text: "This is exactly the kind of innovative design we need more of. Bravo!",
+    link: "https://x.com/Mezeshaiuje/status/1940032934854934552",
+    time: "5:10 PM · Apr 14, 2024",
+    likes: 19,
+    reply: "",
     replies: "Read 2 replies"
   },
   {
-    name: "Paul Copplestone - e/postgres",
-    username: "@kiwicopple",
-    avatar: "https://pbs.twimg.com/profile_images/1664343166630109202/xcBMGPSE_normal.jpg",
-    text: "Your work sets a new standard for design in Nigeria! 🔥",
-    link: "https://twitter.com/kiwicopple/status/1743049700583116812",
-    time: "12:20 AM · Jan 5, 2024",
-    likes: 3,
-    reply: "Replying to @nolansym",
-    replies: "Read 1 reply"
-  },
-  {
-    name: "Dan Kulkov",
-    username: "@DanKulkov",
-    avatar: "https://pbs.twimg.com/profile_images/1778434561556320256/knBJT1OR_normal.jpg",
-    text: "Your portfolio truly captures the essence of modern Nigerian design.",
-    link: "https://twitter.com/DanKulkov/status/1754067409366073443",
-    time: "10:00 AM · Feb 4, 2024",
-    likes: 3,
-    reply: "Replying to @nolansym",
-    replies: "Read more on Twitter"
-  },
-  {
-    name: "Zach",
-    username: "@thezachhan",
-    avatar: "https://pbs.twimg.com/profile_images/1803806797330792448/TA1gxakI_normal.jpg",
-    text: "Wow, the design and UX are on point—definitely representing Nigerian excellence!",
-    link: "https://twitter.com/thezachhan/status/1753968111059861648",
-    time: "3:25 AM · Feb 4, 2024",
-    likes: 1,
+    name: "Emma Bryan",
+    username: "@emmabryan01",
+    avatar: "https://pbs.twimg.com/profile_images/1926050066969542900/TA1gxakI_normal.jpg",
+    text: "The way you've balanced form and function here is masterful. Truly inspiring work!",
+    link: "https://x.com/emmabryan01/status/1926050066969542900",
+    time: "9:05 AM · Apr 5, 2024",
+    likes: 27,
     reply: "",
-    replies: "Read 1 reply"
-  },
-  {
-    name: "Soham Patil",
-    username: "@realsoham774",
-    avatar: "https://pbs.twimg.com/profile_images/1854971219197804544/9--Lms3a_normal.jpg",
-    text: "Beautiful work! I’ll be using this style in my next Nigerian project for sure.",
-    link: "https://twitter.com/realsoham774/status/1754174981897118136",
-    time: "5:08 PM · Feb 4, 2024",
-    likes: 3,
-    reply: "Replying to @nolansym",
-    replies: "Read 1 reply"
-  },
-  {
-    name: "Mertcan",
-    username: "@sitenley",
-    avatar: "https://pbs.twimg.com/profile_images/1913389697943916544/c7DmG44F_normal.jpg",
-    text: "Thanks Jordan, amazing work showing the best of Nigerian design culture! 🤩",
-    link: "https://twitter.com/sitenley/status/1743632296802988387",
-    time: "2:55 PM · Jan 6, 2024",
-    likes: 1,
-    reply: "Replying to @nolansym",
-    replies: "Read 1 reply"
-  },
-  {
-    name: "wayne 🦇🔊",
-    username: "@whatt4",
-    avatar: "https://pbs.twimg.com/profile_images/1745212766988779520/J4SmkzRb_normal.jpg",
-    text: "Proud to be part of this—excited to see more Nigerian design shine.",
-    link: "https://twitter.com/whatt4/status/1754110885168021921",
-    time: "12:53 PM · Feb 4, 2024",
-    likes: 1,
-    reply: "",
-    replies: "Read 1 reply"
-  },
-  {
-    name: "frus",
-    username: "@itsfrus",
-    avatar: "https://pbs.twimg.com/profile_images/1027250923020734465/ve1bk8MU_normal.jpg",
-    text: "This looks really promising! Nigerian creatives will love this approach.",
-    link: "https://twitter.com/itsfrus/status/1760248682828419497",
-    time: "11:22 AM · Feb 21, 2024",
-    likes: 1,
-    reply: "",
-    replies: "Read more on Twitter"
-  },
-  {
-    name: "Ranveer",
-    username: "@ranveer_io",
-    avatar: "https://pbs.twimg.com/profile_images/1528108904789557248/xjibb-tP_normal.jpg",
-    text: "Respect for pushing Nigerian design forward! 🫡",
-    link: "https://twitter.com/ranveer_io/status/1760230134601122153",
-    time: "10:09 AM · Feb 21, 2024",
-    likes: 0,
-    reply: "Replying to @nolansym",
-    replies: "Read more on Twitter"
-  },
-  {
-    name: "Krish",
-    username: "@krishnalpanara",
-    avatar: "https://pbs.twimg.com/profile_images/1481712106710122497/9piu1jf3_normal.jpg",
-    text: "Insane value here—Nigerian design community definitely benefits from this.",
-    link: "https://twitter.com/krishnalpanara/status/1760184980356088267",
-    time: "7:09 AM · Feb 21, 2024",
-    likes: 1,
-    reply: "Replying to @nolansym",
-    replies: "Read more on Twitter"
-  },
+    replies: "Read 6 replies"
+  }
 ];
 
 export default function TestimonialSection() {

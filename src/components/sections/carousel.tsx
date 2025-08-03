@@ -9,7 +9,7 @@ export default function Carousel() {
           Check out my designs
         </h2>
         <h3>
-           <p className="mt- text-lg text-neutral-400 text-center max-w-2xl">
+           <p className="mt-2 text-lg text-neutral-400 text-center max-w-2xl">
               I've created hundreds of amazing designs. Take a look at some of my favorites below.
             </p>
         </h3>

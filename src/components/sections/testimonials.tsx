@@ -25,13 +25,13 @@ export default function TestimonialSection() {
             </p>
           </div>
           <div className="flex items-center justify-center w-full">
-            <div className="columns-1 sm:columns-1 md:columns-3 max-w-4xl md:max-w-6xl px-2">
-              {tweetIds.map((tweetId, i) => (
-                <div key={i} className="mb-4 break-inside-avoid">
-                    <Tweet id={tweetId} />
-                </div>
-              ))}
-            </div>
+            <div className="columns-1 sm:columns-2 md:columns-3 max-w-7xl px-4 gap-4 [column-fill:balance]">
+  {tweetIds.map((tweetId, i) => (
+    <div key={i} className="break-inside-avoid w-full overflow-hidden rounded-xl">
+      <Tweet id={tweetId} />
+    </div>
+  ))}
+</div>
           </div>
         </div>
       </div>    

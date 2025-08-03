@@ -83,13 +83,13 @@ export default function FeaturesSection() {
                                     <div className="overflow-hidden w-full">
                                         <div className="flex animate-marquee space-x-6 pr-6 w-max">
                                             {[...images, ...images].map((img, i) => (
-                                                <div key={"row1-" + i} className="flex-shrink-0">
+                                                <div key={"row1-" + i} className="flex-shrink-0 relative w-[300px] h-auto aspect-auto">
                                                     <Image
                                                         src={img.url}
                                                         alt={img.alt}
-                                                        width={450}
-                                                        height={300}
-                                                        className="cursor-pointer border-8 border-neutral-700 rounded-xl h-48 md:h-64 lg:h-[300px] w-auto md:w-[450px] object-cover aspect-video"
+                                                        width={300}
+                                                        height={200}
+                                                        className="cursor-pointer border-8 border-neutral-700 rounded-xl w-full h-auto object-cover"
                                                         loading="lazy"
                                                     />
                                                 </div>
@@ -100,13 +100,13 @@ export default function FeaturesSection() {
                                     <div className="overflow-hidden w-full">
                                         <div className="flex animate-marquee-reverse space-x-6 pr-6 w-max">
                                             {[...images, ...images].map((img, i) => (
-                                                <div key={"row2-" + i} className="flex-shrink-0">
+                                                <div key={"row2-" + i} className="flex-shrink-0 relative w-[300px] h-auto aspect-auto">
                                                     <Image
                                                         src={img.url}
                                                         alt={img.alt}
-                                                        width={450}
-                                                        height={300}
-                                                        className="cursor-pointer border-8 border-black rounded-xl h-48 md:h-64 lg:h-[300px] w-auto md:w-[450px] object-cover aspect-video"
+                                                        width={300}
+                                                        height={200}
+                                                        className="cursor-pointer border-8 border-black rounded-xl w-full h-auto object-cover"
                                                         loading="lazy"
                                                     />
                                                 </div>
